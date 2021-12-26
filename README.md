@@ -26,17 +26,19 @@
  
 <p>
  
-🐬USER COMMANDS<p>
+ ***USER COMMANDS***<p>
+
 `/start - To start using me` <br>
 `/help  -  To know how to use me`
 
-🐬ADMIN COMMANDS<p>
+ ***ADMIN COMMANDS***<p>
+
 `/status  - to know how many users are using the bot` <br>
 `/broadcast - To send message to all the users using the bot`
 
 
   
-  <b>Host it on VPS Locally :</b></summary>
+  <b>Deploy To VPS :</b></summary>
 
 
 ```py
@@ -116,16 +118,10 @@ To get an instant stream link, just forward any media to the bot and boom, its f
   ![image](https://user-images.githubusercontent.com/88939380/137128326-059f9c53-b3d0-40f0-8484-b17709fbcc11.png)
 
 
-### Channel Support
-`Bot also Supports with Channels. Just add bot Channel as Admin. If any new file comes in Channel it will edit it with **Get Download Link** Button.` </details>
+### Credits 
 
-### 🔷 Credits : 
-
-- [Adarsh Goel_(me)](https://t.me/codexmania)
-- [EverythingSuckz](https://github.com/EverythingSuckz) 
-- `Everyone In This Journey !`
-- `Feel free to contribute 😀`
-
+- [Adarsh Goel](https://t.me/codexmania)
+- [EverythingSuckz](https://github.com/EverythingSuckz)
   
  
  
