@@ -99,7 +99,7 @@ async def private_receive_handler(c: Client, m: Message):
 
 <b>🖥 WATCH    :</b> <i>{}</i>
 
-<b>🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE,\n\nONLY MP4 FILS SUPPORTED TO STERM</b>
+<b>🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE,\nONLY MP4 FILS SUPPORTED TO STREAM</b>
 
 """
 
