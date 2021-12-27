@@ -66,8 +66,8 @@ async def start(b, m):
 <i>👋 ʜɪ ɪ ᴀᴍ ᴀ ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡɪᴛʜ ʙᴏᴛʜ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴᴅ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ ꜱᴜᴘᴘᴏʀᴛ</i>\n
 <i>sᴇɴᴅ ᴀ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ ᴀɴᴅ sᴇᴇ ᴍᴀɢɪᴄ!!<i>\n
 <i>Cʟɪᴄᴋ ᴏɴ /help ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>\n
-<i>Bᴏᴛ Bʏ : @AIOM_BOTS
-<i><b>**It Is Your Responsibility To Use Wisely I Dont Take Responsibilities Of Any Voilations(Of Any Kind)**</i>\n
+<i>Bᴏᴛ Bʏ : @AIOM_BOTS</i>\n
+<i><b>It Is Your Responsibility To Use Wisely I Dont Take Responsibilities Of Any Voilations(Of Any Kind)</i>\n
 <i><u>𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u></i>\n
 <b>Dont Spam.</b>""",
             parse_mode="HTML",
