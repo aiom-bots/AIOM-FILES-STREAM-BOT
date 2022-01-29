@@ -43,11 +43,11 @@ async def start(b, m):
             except UserNotParticipant:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<i>JOIN OUR CHANNEL TO USE ME 🔐</i>",
+                    text="Jᴏɪɴ Oᴜʀ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Tʜɪs Bᴏᴛ",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("JOIN🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                                InlineKeyboardButton("Jᴏɪɴ", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                             ]
                         ]
                     ),
@@ -63,17 +63,28 @@ async def start(b, m):
                 return
         await m.reply_text(
             text="""
-<i>👋 ʜɪ ɪ ᴀᴍ ᴀ ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡɪᴛʜ ʙᴏᴛʜ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴᴅ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ ꜱᴜᴘᴘᴏʀᴛ</i>\n
-<i>sᴇɴᴅ ᴀ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ ᴀɴᴅ sᴇᴇ ᴍᴀɢɪᴄ!!<i>\n
-<i>Cʟɪᴄᴋ ᴏɴ /help ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>\n
-<i>Bᴏᴛ Bʏ : @AIOM_BOTS</i>\n
-<i><b>It Is Your Responsibility To Use Wisely I Dont Take Responsibilities Of Any Voilations(Of Any Kind)</i>\n
-<i><u>𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u></i>\n
-<b>Dont Spam.</b>""",
+Hᴇʟʟᴏ 👋,
+
+Tʜɪs Is A Fɪʟᴇ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ Bᴏᴛ
+
+Yᴏᴜ Cᴀɴ Usᴇ Mᴇ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Fɪʟᴇs Fʀᴏᴍ Yᴏᴜ'ʀᴇ Bʀᴏᴡsᴇʀ
+
+Jᴜsᴛ Sᴇɴᴅ Mᴇ A Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇ Aɴᴅ Sᴇᴇ Mʏ Pᴏᴡᴇʀ
+
+Cʟɪᴄᴋ Oɴ /help Fᴏʀ Mᴏʀᴇ Dᴇᴛᴀɪʟs
+
+Pᴏᴡᴇʀᴇᴅ ʙʏ : @AIOM_BOTS
+""",
             parse_mode="HTML",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('Owner', url=f"https://t.me/ajvadntr"),
-                                                                                       InlineKeyboardButton('Follow ', url='https://github.com/ajvadntr') ] ]  ) )
+            reply_markup=InlineKeyboardMarkup( [[
+            InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/AIOM_BOTS"),
+            InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/AIOM_BOTS_GROUP")
+            ],[
+            InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/ajvadntr/AIOM-FILES-STREAM-BOT")
+            ]]
+            )
+       )
                                                                                        
                                                                                        
                                                                             
