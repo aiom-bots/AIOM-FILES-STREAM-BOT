@@ -120,13 +120,7 @@ Nᴏᴛᴇ :  Lɪɴᴋ Wᴏɴ'ᴛ Exᴘɪʀᴇ Uɴᴛɪʟ I Dᴇʟᴇᴛᴇ
                 ),
                 parse_mode="HTML"
             )
-            InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ", url="")
-            ],[
-            InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/AIOM_BOTS"),
-            InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/AIOM_BOTS_GROUP")
-            ]]
-            )
-       )
+         
     except FloodWait as e:
         print(f"Sleeping for {str(e.x)}s")
         await asyncio.sleep(e.x)
