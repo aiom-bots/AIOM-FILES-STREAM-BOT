@@ -63,7 +63,7 @@ async def start(b, m):
                 return
         await m.reply_text(
             text="""
-Hᴇʟʟᴏ 👋, [{m.from_user.first_name}](tg://user?id={m.from_user.id})
+Hᴇʟʟᴏ 👋,
 
 Tʜɪs Is A Fɪʟᴇ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ Bᴏᴛ
 
