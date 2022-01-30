@@ -108,6 +108,7 @@ Nᴏᴛᴇ :  Lɪɴᴋ Wᴏɴ'ᴛ Exᴘɪʀᴇ Uɴᴛɪʟ I Dᴇʟᴇᴛᴇ
             parse_mode="HTML", 
             quote=True,
             disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
             InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ", url="online_link")
             ],[
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/AIOM_BOTS"),
