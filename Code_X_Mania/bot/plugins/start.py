@@ -107,10 +107,10 @@ Pᴏᴡᴇʀᴇᴅ ʙʏ : @AIOM_BOTS
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("⭕️ Join Updates Channel ⭕️", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                                InlineKeyboardButton("Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                             ],
                             [
-                                InlineKeyboardButton("🔄 Refresh / Try Again",
+                                InlineKeyboardButton("Rᴇꜰʀᴇsʜ / Tʀʏ Aɢᴀɪɴ",
                                                      url=f"https://t.me/{Var.APP_NAME}.herokuapp.com/{usr_cmd}") # Chnage ur app name
                             ]
                         ]
@@ -154,28 +154,30 @@ Pᴏᴡᴇʀᴇᴅ ʙʏ : @AIOM_BOTS
             online_link = shortlinka
 
         msg_text ="""
-<i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>
+Yᴏᴜ'ʀᴇ Lɪɴᴋ Is Rᴇᴀᴅʏ
 
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <i>{}</i>
+<b>Fɪʟᴇ ɴᴀᴍᴇ :</b> <i>{}</i>
 
-<b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>
+<b>Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>
 
-<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>
+<b>Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>
 
-<b>🖥 ᴡᴀᴛᴄʜ  :</b> <i>{}</i>
 
-<b>🚸 Nᴏᴛᴇ : **LINK WON'T EXPIRE TILL I DELETE**</b>
-
+Nᴏᴛᴇ :  Lɪɴᴋ Wᴏɴ'ᴛ Exᴘɪʀᴇ Uɴᴛɪʟ I Dᴇʟᴇᴛᴇ
 """
 
         await m.reply_text(
             text=msg_text.format(file_name, file_size, online_link, stream_link),
             parse_mode="HTML",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("sᴛʀᴇᴀᴍ", url=stream_link), #Stream Link
-                                                InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ', url=online_link)]]) #Download Link
-        )
-
-
+            reply_markup=InlineKeyboardMarkup( [[
+            InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ", url=online_link")
+            ],[
+            InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/AIOM_BOTS"),
+            InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/AIOM_BOTS_GROUP")
+            ]]
+            )
+       )
+            
 @StreamBot.on_message(filters.command('help') & filters.private & ~filters.edited)
 async def help_handler(bot, message):
     if not await db.is_user_exist(message.from_user.id):
@@ -202,7 +204,7 @@ async def help_handler(bot, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("⭕️ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ⭕️", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
@@ -218,12 +220,14 @@ async def help_handler(bot, message):
             return
    
     await message.reply_text(
-       text="Send Me Any File/Media From Telegram, I'll Provide External Direct Download Link..",
+       text="Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇ (ᴏʀ) Fʀᴏᴍ Tᴇʟᴇɢʀᴀᴍ.\n\nI Wɪʟʟ Pʀᴏᴠɪᴅᴇ Exᴛᴇʀɴᴀʟ Dɪʀᴇᴄᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ !.\n\nSᴘᴀᴍ Lᴇᴀᴅꜱ Yᴏᴜ To Pᴇʀᴍᴀɴᴇɴᴛ Bᴀɴ",
             parse_mode="HTML",
             
-          reply_markup=InlineKeyboardMarkup(
-            [
-                [InlineKeyboardButton("DEVELOPER", url="https://t.me/ajvadntr")]
-            ]
+          reply_markup=InlineKeyboardMarkup( [[
+            InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/AIOM_BOTS"),
+            InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/AIOM_BOTS_GROUP")
+            ],[
+            InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/ajvadntr/AIOM-FILES-STREAM-BOT")
+            ]]
+            )
         )
-    )
